@@ -10,3 +10,5 @@ git add readme.txt
 git commit -m readme.txt
 git status
 git diff <path>
+
+git branch
