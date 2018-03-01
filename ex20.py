@@ -39,3 +39,7 @@ print_a_line(current_line, current_file)
 # run function more
 current_line = current_line + 1
 print_a_line(current_line, current_file)
+
+# let's test how does readline work
+current_line = current_line + 1
+print_a_line(current_line, current_file)
