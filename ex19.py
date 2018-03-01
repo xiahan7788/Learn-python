@@ -37,4 +37,3 @@ print "And, how many legs do 10 snake and 13 dogs have?"
 snakes = 10
 dogs = 13
 animals_legs(snakes + dogs, snakes * 0 + dogs * 4)
-
