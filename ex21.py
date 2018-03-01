@@ -12,7 +12,7 @@ def multiply(a, b):
 	return a * b
 	
 def divide(a, b):
-	print "DIVIDING %d / %d) % (a, b)
+	print "DIVIDING %d / %d" % (a, b)
 	return a / b
 	
 print "Let's do some math with just functions!"
@@ -29,5 +29,5 @@ print "AGE: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
 print "Here is a puzzle."
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
-
+# -341? right? omg, -4391!!!!
 print "That becomes: ", what, "Can you do it by hand?"
