@@ -4,6 +4,8 @@
 the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
+animals = ['dogs', 'cats', 'snakes', 'tigers']
+animals_2 = ['birds', 'monkeys', 'lions']
 
 # this first kind of for-loop goes through a list
 for number in the_count:
@@ -30,3 +32,12 @@ for i in range(0,6):
 # now we can print them out too
 for i in elements:
 	print "Element was: %d" % i
+
+addanimals = animals_2
+for animal in animals:
+	print "Zoo has some many animals: %s" % animal
+	
+animals.extend(addanimals)
+
+for animal in animals:
+	print "So has: %s" % animal
