@@ -10,6 +10,10 @@ class Song(object):
 		for line in self.lyrics:
 			print line
 	
+	def song_long(self):
+		return len(self.lyrics)
+
+			
 happy_bday = Song(["Happy birthday to you",
                    "I don't want to get sued",
 				   "So I'll stop right there"
@@ -21,3 +25,5 @@ bulls_on_parade = Song(["They rally around the family",
 					
 happy_bday.sing_me_a_song()
 bulls_on_parade.sing_me_a_song()
+print happy_bday.song_long()
+print bulls_on_parade.song_long()
